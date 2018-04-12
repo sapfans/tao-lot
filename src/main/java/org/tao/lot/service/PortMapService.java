@@ -61,7 +61,7 @@ public class PortMapService {
                 throw new RuntimeException("Port was already mapped by other client.");
 
             } else {
-                logger.info("Port was already mapped by self. {} ：{}", externalIPAddress, externalPort);
+                logger.info("Port was already mapped by self. {}:{}", externalIPAddress, externalPort);
             }
         } else {
             logger.info("Sending port mapping request");
