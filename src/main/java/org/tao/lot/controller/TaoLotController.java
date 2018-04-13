@@ -35,7 +35,7 @@ public class TaoLotController {
         JSONObject rst = new JSONObject();
         rst.put("externalIpAddress", portMapService.getExternalIPAddress());
         rst.put("externalPort", portMapService.getExternalPort());
-        rst.put("localIPAddress", portMapService.getExternalIPAddress());
+        rst.put("localIPAddress", portMapService.getInternalPort());
         rst.put("internalPort", portMapService.getInternalPort());
         responseResult.setData(rst);
         responseResult.setCode(CodeEnum.Success.getCode());
