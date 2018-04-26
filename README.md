@@ -5,7 +5,7 @@
 ```
 upnp.externalPort=8088
 ```
-道LOT启动并成功打通TCP隧道后，会自动发邮件到到指定的邮箱，配置如下：
+道LOT启动并成功打通TCP隧道后，会自动发有奖把树莓派设备的公网ip与映射端口号到到指定的邮箱，配置如下：
 ```
 spring.mail.host= smtp.qq.com
 spring.mail.port= 465
